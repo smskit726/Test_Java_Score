@@ -304,10 +304,7 @@ public class ScoreServiceImplV1 implements ScoreService{
 			}
 			pStream.printf("\t|%5.2f\t\t|\n",(float)avgAndAvg / scoreList.size());
 			pStream.println("========================================================");
-			/*
-			pWriter.flush();
-			pWriter.close();
-			*/
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
